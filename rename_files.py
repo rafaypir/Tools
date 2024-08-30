@@ -1,4 +1,7 @@
-# This Python script renames image files in a specified directory, ensuring that filenames are zero-padded for correct numerical ordering. It specifically handles JPG files named in the format `imgX.jpg` (e.g., `img1.jpg`, `img2.jpg`, etc.). The script first identifies all JPG files, sorts them numerically, and then renames each file to include leading zeros (e.g., `img01.jpg`, `img02.jpg`). This process is useful for maintaining the correct sequence when processing or converting these images, such as when combining them into a PDF.
+# This Python script renames image files in a specified directory, ensuring that filenames are zero-padded for correct numerical ordering. 
+# It handles JPG files named in the format `imgX.jpg` (e.g., `img1.jpg`, `img2.jpg`, etc.). 
+# The script first identifies all JPG files, sorts them numerically, and then renames each file to include leading zeros (e.g., `img01.jpg`, `img02.jpg`). 
+# This process is useful for maintaining the correct sequence when processing or converting these images, such as when combining them into a PDF.
 
 
 import os
